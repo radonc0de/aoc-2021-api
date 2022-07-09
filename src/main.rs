@@ -4,6 +4,7 @@ use std::fs;
 mod day_1;
 mod day_2;
 mod day_5;
+mod day_14;
 
 fn main() {
 
@@ -24,6 +25,7 @@ fn main() {
         1 => ans = day_1::begin(part, input),
         2 => ans = day_2::begin(part, input),
         5 => ans = day_5::begin(part, input),
+        14 => ans = day_14::begin(part, input),
         _ => panic!("Invalid day entered!")
     }
     
